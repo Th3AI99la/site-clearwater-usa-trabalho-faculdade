@@ -1,0 +1,107 @@
+/* Estilos gerais aplicados para telas maiores (desktop) */
+@media (min-width: 1024px) {
+  .intro {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .buttons_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .botao_main {
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .redes-sociais-paginamain {
+    padding: 10px;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+  }
+
+  footer {
+    margin-bottom: 50px; /* Adiciona espaço para o footer */
+  }
+}
+
+/* Estilos para tablets e telas médias */
+@media (max-width: 1024px) and (min-width: 768px) {
+  .intro {
+    padding: 15px;
+  }
+
+  .buttons_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px;
+  }
+
+  .botao_main {
+    width: 180px;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .redes-sociais-paginamain {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  body, html {
+    font-size: 14px;
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+  }
+
+  .intro {
+    padding: 10px;
+  }
+
+  .buttons_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .botao_main {
+    width: 100%; /* Ajusta a largura dos botões para caber na tela */
+    max-width: 150px; /* Define uma largura máxima para os botões */
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .redes-sociais-paginamain {
+    padding: 5px;
+    font-size: 12px;
+    position: static; /* Remover a fixação para dispositivos móveis */
+    margin-top: 20px; /* Adiciona espaço acima do footer */
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+    text-align: center; /* Centraliza o texto e ícones no footer */
+  }
+
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px; /* Adiciona um pequeno espaçamento entre os ícones */
+  }
+
+  footer {
+    margin-bottom: 0; /* Remove o espaço extra na parte inferior */
+  }
+}

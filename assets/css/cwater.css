@@ -338,12 +338,12 @@ footer {
 }
 
 .footer-info {
-  background-color: #333; /* Cor de fundo para o footer */
-  color: #f0f0f0; /* Cor do texto para contraste */
-  padding: 20px; /* Espaçamento interno */
+  background-color: #333333; /* Cor de fundo para o footer */
+  color: #ffffff; /* Cor do texto para contraste */
+  padding: 1px; /* Espaçamento interno */
   text-align: center; /* Centraliza o texto */
-  margin: 20px auto; /* Margem superior e inferior, centralizado horizontalmente */
-  max-width: 1200px; /* Define uma largura máxima para o footer, opcional */
+  margin: 1px auto; /* Margem superior e inferior, centralizado horizontalmente */
+  max-width: 500px; /* Define uma largura máxima para o footer, opcional */
 }
 
 .footer-info h1 {
