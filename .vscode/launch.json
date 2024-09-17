@@ -5,11 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
+            "type": "chrome",
             "request": "launch",
-            "name": "Launch Edge against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "name": "Open index.html",
+            "file": "/Users/thalles/Documents/Dev/Web/site-clearwater-usa-trabalho-faculdade/index.html"
         }
     ]
 }

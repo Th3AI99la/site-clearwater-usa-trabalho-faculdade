@@ -22,10 +22,6 @@ h1{
 
 }
 
-.imagem1 {
-  width: 20%;
-  display: block;
-}
 .quadrado1 {
 border: 3px solid black;
 width: 300px;
@@ -163,12 +159,16 @@ li {
 
 }
 
+
 .topo1 {
-
-  margin-left: 190px; 
-  margin-right: 190px;
-
+    margin-left: 190px; 
+    margin-right: 190px;
+    background-color: #ffffffd9; /* Cor de fundo semelhante ao ChatGPT */
+    color: #333; /* Cor do texto para bom contraste */
+    line-height: 1.4; /* Melhora o espaçamento entre linhas */
 }
+
+
 
 .lugarb1 {
 
@@ -210,5 +210,67 @@ a{
   margin-left: 300px; 
   
 }
+
+/* Definindo a classe para a imagem de fundo */
+.imagem_de_fundo {
+    background-image: url('/assets/images/backgroundUS_ClearWaterBeach.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 100vh; /* Faz o body ocupar toda a altura da janela */
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+
+/* Definindo a classe para a imagem de fundo da pagina de Historia da Cidade */
+.imagem_de_fundo_history {
+    background-image: url('/assets/images/textura-branca_1160-786.avif');
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    height: 100vh; /* Faz o body ocupar toda a altura da janela */
+    margin: 0; /* Remove a margem padrão do body */
+}
+
+
+.botao-imagem {
+    display: block; /* Faz com que o contêiner ocupe toda a largura disponível */
+    text-decoration: none; /* Remove o sublinhado do link */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+/* Estilos para a imagem */
+.imagem1 {
+    width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito de sombra e transformação */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
+    display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
+/* Efeito de sombra e transformação ao passar o mouse */
+.imagem1:hover {
+    transform: scale(1.05); /* Leve aumento na escala da imagem para efeito de zoom */
+}
+
+
+/* Estilos para a imagem */
+.imagem2 {
+    width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
+    display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
