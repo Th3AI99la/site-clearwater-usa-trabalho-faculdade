@@ -1,80 +1,38 @@
-body, html{
+body, html {
   height: 100%;
   margin: 0;
-  background-repeat: no-repeat; 
-  background-size: cover;  
-  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   line-height: 1.5;
-  background-repeat: no-repeat;
-  
-
-
 }
 
-
-h1{
+h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   line-height: 1.5;
   font-size: medium;
-
-
 }
 
-.quadrado1 {
-border: 3px solid black;
-width: 300px;
-height: 300px;
-background-repeat: no-repeat;
-margin-left: 1px; 
-margin-right: 1px;
-
-  }
-
-.quadrado2 {
+.quadrado1, .quadrado2, .quadrado3, .quadrado4 {
   border: 3px solid black;
   width: 300px;
   height: 300px;
   background-repeat: no-repeat;
-  margin-left: 1px; 
+  margin-left: 1px;
   margin-right: 1px;
-  
-  }
-
-.quadrado3 {
-    border: 3px solid black;
-    width: 300px;
-    height: 300px;
-    background-repeat: no-repeat;
-    margin-left: 1px; 
-    margin-right: 1px;
-    
-  }
+}
 
 .quadrado4 {
-      border: 3px solid rgb(3, 3, 3);
-      width: 300px;
-      height: 300px;
-      background-repeat: no-repeat;
-      margin-left: 1px; 
-      margin-right: 1px;
-      
-    }
+  border-color: rgb(3, 3, 3);
+}
 
-.botaohd{
+.botaohd {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
-
-  
 }
 
-h2 {
-  color: rgb(0, 0, 0);
-
-}
-
-p {
+h2, p {
   color: rgb(0, 0, 0);
 }
 
@@ -86,7 +44,7 @@ h3 {
 footer {
   color: rgb(0, 0, 0);
   font-style: italic;
-  font-size: "1";
+  font-size: 1em;
 }
 
 hr {
@@ -95,182 +53,308 @@ hr {
   text-align: center;
 }
 
-.facebook {
-  width: 3.0%;
-  
-}
-.instagram {
-  width: 3.0%;
-  
-
+.facebook, .instagram, .yt {
+  width: 3%;
 }
 
-.yt {
-  width: 3.0%;
- 
-}
-
-.fundoimg{
-
+.fundoimg {
   height: 200px;
-  top: 1900px; left: -10px; 
   width: 150%;
+  position: absolute;
+  top: 1900px;
+  left: -10px;
 }
 
-
-.nav1{
-
+.nav1 {
   font-family: Arial, Helvetica, sans-serif;
-
-
-
 }
 
 .lugarh3 {
-
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
   font-size: 25px;
-
-
 }
 
 li {
-
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 15px;
-  position:relative;
-  margin-bottom:0.3em;
-  color:#000000;
+  position: relative;
+  margin-bottom: 0.3em;
+  color: #000000;
 }
 
 .imglugar1 {
-
   width: 650px;
- 
-
 }
-
 
 .imglugar3 {
-
   width: 350px;
-
-
 }
-
 
 .topo1 {
-    margin-left: 190px; 
-    margin-right: 190px;
-    background-color: #ffffffd9; /* Cor de fundo semelhante ao ChatGPT */
-    color: #333; /* Cor do texto para bom contraste */
-    line-height: 1.4; /* Melhora o espaçamento entre linhas */
+  margin-left: 190px;
+  margin-right: 190px;
+  background-color: #ffffffd9; /* Cor de fundo semelhante ao ChatGPT */
+  color: #333; /* Cor do texto para bom contraste */
+  line-height: 1.4; /* Melhora o espaçamento entre linhas */
+}
+
+.intro {
+  padding: 20px; /* Adiciona espaçamento interno */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima */
+  text-align: center; /* Centraliza o texto */
+  background-color: #057ab4; /* Cor de fundo clara */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 
-
-.lugarb1 {
-
+.lugarb1, .lugarb2, .lugarb3 {
   list-style: none;
   display: flex;
-  justify-content: space-around;
   gap: 20px;
-
 }
-
 
 .lugarb2 {
-
-  list-style: none;
-  display: flex;
   justify-content: start;
   gap: 5px;
-  margin-left: -42px; 
-  
+  margin-left: -42px;
 }
 
-.lugarb3 {
-
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  gap: 20px; 
-
-
-}
-
-a{
-
+a {
   color: rgb(0, 0, 0);
 }
 
-.home{
-
-  margin-left: 300px; 
-  
+.home {
+  margin-left: 300px;
 }
 
 /* Definindo a classe para a imagem de fundo */
+.imagem_de_fundo, .imagem_de_fundo_history {
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  height: 100vh; /* Faz o body ocupar toda a altura da janela */
+  margin: 0; /* Remove a margem padrão do body */
+}
+
 .imagem_de_fundo {
-    background-image: url('/assets/images/backgroundUS_ClearWaterBeach.jpg');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    height: 100vh; /* Faz o body ocupar toda a altura da janela */
-    margin: 0; /* Remove a margem padrão do body */
+  background-image: url('/assets/images/backgroundUS_ClearWaterBeach.jpg');
 }
 
-
-/* Definindo a classe para a imagem de fundo da pagina de Historia da Cidade */
 .imagem_de_fundo_history {
-    background-image: url('/assets/images/textura-branca_1160-786.avif');
-    background-size: cover; /* Faz a imagem cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    height: 100vh; /* Faz o body ocupar toda a altura da janela */
-    margin: 0; /* Remove a margem padrão do body */
+  background-image: url('/assets/images/textura-branca_1160-786.avif');
 }
-
 
 .botao-imagem {
-    display: block; /* Faz com que o contêiner ocupe toda a largura disponível */
-    text-decoration: none; /* Remove o sublinhado do link */
-    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
-    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+  display: block; /* Faz com que o contêiner ocupe toda a largura disponível */
+  text-decoration: none; /* Remove o sublinhado do link */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  text-align: center; /* Centraliza o conteúdo dentro do contêiner */
 }
 
 /* Estilos para a imagem */
+.imagem1, .imagem2 {
+  width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
+  display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
 .imagem1 {
-    width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
-    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito de sombra e transformação */
-    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
-    display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito de sombra e transformação */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
 }
 
 /* Efeito de sombra e transformação ao passar o mouse */
 .imagem1:hover {
-    transform: scale(1.05); /* Leve aumento na escala da imagem para efeito de zoom */
+  transform: scale(1.05); /* Leve aumento na escala da imagem para efeito de zoom */
 }
 
-
-/* Estilos para a imagem */
 .imagem2 {
-    width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
-    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
-    display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a imagem */
 }
 
+footer {
+  background-color: #333; /* Cor de fundo escura para o footer */
+  color: #f0f0f0; /* Cor do texto clara para contraste */
+  padding: 5px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto e conteúdo */
+}
 
+.footer-content h1 {
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
 
+.social-links {
+  margin-bottom: 10px; /* Espaçamento abaixo dos ícones sociais */
+}
 
+.social-icon {
+  display: inline-block;
+  margin: 0 10px; /* Espaçamento horizontal entre os ícones */
+}
 
+.social-icon img {
+  width: 40px; /* Tamanho dos ícones */
+  height: auto; /* Mantém a proporção da imagem */
+  transition: transform 0.3s ease; /* Transição suave para o efeito de hover */
+}
 
+.social-icon img:hover {
+  transform: scale(1.1); /* Leve aumento dos ícones ao passar o mouse */
+}
 
+.nav1 ul {
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+}
 
+.nav1 li {
+  display: inline; /* Exibe os itens da lista em linha */
+  margin: 0 10px; /* Espaçamento horizontal entre os itens */
+}
 
+.nav1 a {
+  color: #f0f0f0; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
 
+.nav1 a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
 
+/* Estilo para o footer */
+.redes-sociais-paginamain {
+  background-color: #069cc2;
+  color: #fff; /* Cor do texto */
+  padding: 1px;
+  text-align: center; /* Centraliza o texto e ícones */
+  position: fixed; /* Fixar o footer na parte inferior da tela */
+  bottom: 0;
+  width: 100%; /* Largura total da tela */
+}
+
+/* Estilo para os ícones sociais */
+.social-icon {
+  width: 40px; /* Tamanho dos ícones */
+  height: 40px;
+  margin: 0 40px; /* Espaçamento entre os ícones */
+  vertical-align: middle; /* Alinha verticalmente os ícones */
+  transition: transform 0.3s ease, filter 0.3s ease; /* Transições suaves */
+}
+
+/* Efeito ao passar o mouse sobre os ícones */
+.social-icon:hover {
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho do ícone */
+  filter: brightness(1.2); /* Aumenta o brilho dos ícones */
+}
+
+/* Estilo para o menu de navegação no footer */
+.nav1 {
+  margin-top: 10px; /* Espaçamento superior */
+}
+
+.nav1 ul {
+  list-style: none; /* Remove a marcação da lista */
+  padding: 0; /* Remove o preenchimento da lista */
+}
+
+.nav1 li {
+  display: inline; /* Exibe itens em linha */
+  margin: 0 10px; /* Espaçamento entre os itens */
+}
+
+.nav1 a {
+  color: #fff; /* Cor do texto do link */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para os botões do MAIN */
+.botao_main {
+  background: #069cc2; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas para um efeito moderno */
+  padding: 20px; /* Espaçamento interno */
+  cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda do botão */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
+  text-align: center; /* Centraliza o texto no botão */
+  display: inline-block; /* Faz com que o botão se ajuste ao conteúdo */
+  width: 200px; /* Largura fixa do botão */
+  height: 50px; /* Altura fixa do botão */
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.botao_main:hover {
+  background: #057ab4; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento na escala do botão */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra do botão */
+}
+
+/* Estilo para a centralização da imagem */
+.imagem2 {
+  width: 30%; /* Ajusta a imagem ao tamanho do contêiner */
+  display: inline-block; /* Faz com que a imagem se ajuste ao tamanho do contêiner */
+}
+
+// BOTAO MAIN
+
+.buttons_main {
+  display: flex; /* Usa Flexbox para o layout dos botões */
+  flex-wrap: wrap; /* Permite que os botões quebrem para a linha seguinte se necessário */
+  justify-content: center; /* Centraliza os botões horizontalmente */
+  gap: 15px; /* Espaçamento entre os botões */
+  margin: 20px auto; /* Margem superior e inferior, centralizado horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima para a seção, opcional */
+}
+
+.buttons_main a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.botao_main {
+  background: #069cc2; /* Cor de fundo */
+  border-radius: 10px; /* Bordas arredondadas para um efeito moderno */
+  padding: 15px; /* Espaçamento interno ajustado */
+  cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda do botão */
+  font-size: 14px; /* Tamanho da fonte ajustado */
+  font-weight: bold; /* Fonte em negrito */
+  text-align: center; /* Centraliza o texto */
+  display: inline-block; /* Faz o botão ajustar-se ao conteúdo */
+  width: 180px; /* Largura ajustada para todos os botões */
+  height: auto; /* Altura ajustada para permitir flexibilidade */
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para mudanças de cor, transformação e sombra */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.botao_main:hover {
+  background: #057ab4; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.03); /* Leve aumento na escala do botão */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra ajustada para um efeito de profundidade mais suave */
+}
+
+.footer-info {
+  background-color: #333; /* Cor de fundo para o footer */
+  color: #f0f0f0; /* Cor do texto para contraste */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  margin: 20px auto; /* Margem superior e inferior, centralizado horizontalmente */
+  max-width: 1200px; /* Define uma largura máxima para o footer, opcional */
+}
+
+.footer-info h1 {
+  font-size: 24px; /* Tamanho da fonte do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.footer-info p {
+  font-size: 16px; /* Tamanho da fonte do parágrafo */
+  margin: 0; /* Remove a margem padrão do parágrafo */
+}
 
 
 
